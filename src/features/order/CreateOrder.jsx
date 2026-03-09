@@ -27,7 +27,6 @@ function CreateOrder() {
   } = useSelector((state) => state.user);
   const isLoadingAddress = addressStatus === 'loading';
 
-
   const navigation = useNavigation();
   const isSubmitting = navigation.state === 'submitting';
   
